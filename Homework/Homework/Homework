@@ -1,0 +1,49 @@
+    #mins to seconds#
+
+a = int(input("how many mins do you want converted?: "))
+s = int(60)
+ans = a * s
+print ("there are "+ str(ans) + " seconds")
+
+
+Days till 100 yr old
+
+
+print ("how old are you?")
+age = input (">>")
+yearsleft = 100 - int(age)
+if yearsleft < 0:
+    print("your already more than 100 yrs old")
+elif int(age) < 0:
+    print("teach my your ways, impossible")
+else: print("you have "+ str(int(yearsleft)*365.25) + " days left till your 100 yrs old")
+
+How old in days
+
+print ("how old are you?")
+age = input (">>")
+age2 = int(age)
+age3 = str(age)
+yearsleft = int(age)
+daysleft = int(age) * 365
+print (str(int(daysleft)))
+print ("days old")
+
+Number of cards
+
+print ("how many cards did Cruellea get this time?")
+age = input (">>")
+daysleft = int(age) * 2
+print ("this time Jane got")
+print (str(int(daysleft)))
+print ("amount of cards")
+
+
+Notes 
+age = int(input("what is your age? "))
+age2 = str(age + int(10))
+print ("you will be " + age2 + " in 10 years")
+age = int(input("what is your age? "))
+age2 = str(age + int(10))
+print ("you will be " + age2 + " in 10 years")
+
